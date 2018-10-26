@@ -1,0 +1,25 @@
+﻿<Controls:MetroWindow x:Class="BEST3.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}"  Width="800" Height="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" prism:RegionManager.RegionName="ToolBarRegion" />
+        <Separator Grid.Row="1"/>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Grid.Column="0" prism:RegionManager.RegionName="ViewBarRegion" />
+            <ContentControl Grid.Column="1" prism:RegionManager.RegionName="ContentRegion" />
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>
