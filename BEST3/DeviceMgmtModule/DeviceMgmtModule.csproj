@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D17B74DB-30DF-4B72-9FB5-E9CDF4FBCEC2}</ProjectGuid>
+    <ProjectGuid>{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectMgmtModule</RootNamespace>
-    <AssemblyName>ProjectMgmtModule</AssemblyName>
+    <RootNamespace>DeviceMgmtModule</RootNamespace>
+    <AssemblyName>DeviceMgmtModule</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,7 +49,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProjectMgmtModule.cs" />
+    <Compile Include="DeviceMgmtModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -63,17 +63,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ViewModels\NewProjectViewModel.cs" />
-    <Compile Include="ViewModels\SaveProjectViewModel.cs" />
-    <Compile Include="ViewModels\OpenProjectViewModel.cs" />
-    <Compile Include="Views\SaveProject.xaml.cs">
-      <DependentUpon>SaveProject.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\OpenProject.xaml.cs">
-      <DependentUpon>OpenProject.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\NewProject.xaml.cs">
-      <DependentUpon>NewProject.xaml</DependentUpon>
+    <Compile Include="ViewModels\ConnectViewModel.cs" />
+    <Compile Include="Views\Connect.xaml.cs">
+      <DependentUpon>Connect.xaml</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,15 +79,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="Views\SaveProject.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\OpenProject.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\NewProject.xaml">
+    <Page Include="Views\Connect.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

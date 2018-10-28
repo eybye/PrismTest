@@ -12,6 +12,7 @@ namespace ProjectMgmtModule
             var regionManager = containerProvider.Resolve<IRegionManager>();
             regionManager.RegisterViewWithRegion("ToolBarRegion", typeof(NewProject));
             regionManager.RegisterViewWithRegion("ToolBarRegion", typeof(OpenProject));
+            regionManager.RegisterViewWithRegion("ToolBarRegion", typeof(SaveProject));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)

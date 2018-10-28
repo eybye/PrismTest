@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMgmtModule", "Projec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametersMgmtModule", "ParametersMgmtModule\ParametersMgmtModule.csproj", "{48AD014A-0CF4-4B21-BCBF-700E6185D14F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceMgmtModule", "DeviceMgmtModule\DeviceMgmtModule.csproj", "{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{48AD014A-0CF4-4B21-BCBF-700E6185D14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48AD014A-0CF4-4B21-BCBF-700E6185D14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48AD014A-0CF4-4B21-BCBF-700E6185D14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AC68B8-9375-4C98-B2E0-C2103F830AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

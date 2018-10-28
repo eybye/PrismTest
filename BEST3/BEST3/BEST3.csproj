@@ -117,6 +117,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DeviceMgmtModule\DeviceMgmtModule.csproj">
+      <Project>{f9ac68b8-9375-4c98-b2e0-c2103f830ae3}</Project>
+      <Name>DeviceMgmtModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ParametersMgmtModule\ParametersMgmtModule.csproj">
       <Project>{48ad014a-0cf4-4b21-bcbf-700e6185d14f}</Project>
       <Name>ParametersMgmtModule</Name>

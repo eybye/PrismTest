@@ -9,10 +9,10 @@
              prism:ViewModelLocator.AutoWireViewModel="True" >
     <Grid Margin="5">
         <StackPanel Orientation="Vertical">
-            <Button Margin="2" Content="Overview" Width="80" Command="{Binding ViewCommands.OverviewCommand}" />
-            <Button Margin="2" Content="Monitoring" Width="80" Command="{Binding ViewCommands.MonitoringCommand}" />
-            <Button Margin="2" Content="Configuration" Width="80" Command="{Binding ViewCommands.ConfigurationCommand}" />
-            <Button Margin="2" Content="Alarms" Width="80" Command="{Binding ViewCommands.AlarmCommand}" />
+            <Button Margin="1" Content="Overview" Width="100" Command="{Binding ViewCommands.OverviewCommand}" />
+            <Button Margin="1" Content="Monitoring" Width="100" Command="{Binding ViewCommands.MonitoringCommand}" />
+            <Button Margin="1" Content="Configuration" Width="100" Command="{Binding ViewCommands.ConfigurationCommand}" />
+            <Button Margin="1" Content="Alarms" Width="100" Command="{Binding ViewCommands.AlarmCommand}" />
         </StackPanel>
     </Grid>
 </UserControl>
